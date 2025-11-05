@@ -1,5 +1,5 @@
 <?php 
-require_once "connect.php";
+require_once "pdo.php";
 
 // Demand a GET parameter
 if ( ! isset($_GET['name']) || strlen($_GET['name']) < 1  ) {
